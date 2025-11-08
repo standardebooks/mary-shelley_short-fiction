@@ -135,6 +135,26 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="the-heir-of-mondolfo.xhtml"/>
+		<itemref idref="the-sisters-of-albano.xhtml"/>
+		<itemref idref="ferdinando-eboli.xhtml"/>
+		<itemref idref="the-evil-eye.xhtml"/>
+		<itemref idref="the-dream.xhtml"/>
+		<itemref idref="the-mourner.xhtml"/>
+		<itemref idref="the-false-rhyme.xhtml"/>
+		<itemref idref="a-tale-of-passions.xhtml"/>
+		<itemref idref="the-mortal-immortal.xhtml"/>
+		<itemref idref="transformation.xhtml"/>
+		<itemref idref="the-swiss-peasant.xhtml"/>
+		<itemref idref="the-invisible-girl.xhtml"/>
+		<itemref idref="the-brother-and-sister.xhtml"/>
+		<itemref idref="the-parvenue.xhtml"/>
+		<itemref idref="the-pole.xhtml"/>
+		<itemref idref="euphrasia.xhtml"/>
+		<itemref idref="the-elder-son.xhtml"/>
+		<itemref idref="the-pilgrims.xhtml"/>
+		<itemref idref="mathilda.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>

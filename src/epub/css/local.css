@@ -1,2 +1,80 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+/* All Epigraphs */
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+	-epub-hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: small-caps;
+	margin-top: 1em;
+}
+/* End all epigraphs */
+
+/* Epigraphs in section headers */
+article > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+article > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	article > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
+
+/* Verse and song */
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+p span.i3{
+	padding-left: 4em;
+	text-indent: -1em;
+}
+/* End verse and song */
+
+/* Block level language semantics */
+blockquote[xml|lang]{
+	font-style: italic;
+}

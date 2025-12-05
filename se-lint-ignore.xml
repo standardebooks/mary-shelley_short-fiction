@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-064</code>
+			<reason>The supposed cite element is actually an abbreviation.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>

@@ -55,43 +55,58 @@
 		<meta property="term" refines="#subject-8">Unknown</meta>
 		<meta property="authority" refines="#subject-9">LCSH</meta>
 		<meta property="term" refines="#subject-9">Unknown</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
+		<!-- Tales and Stories -->
 		<dc:source>https://www.gutenberg.org/ebooks/56665</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:source>https://archive.org/details/storiesmary00shelrich</dc:source>
+		<!-- Mathilda -->
+		<dc:source>https://www.gutenberg.org/ebooks/15238</dc:source>
+		<dc:source>https://commons.wikimedia.org/wiki/File:Mathilda.pdf</dc:source>
 		<meta property="se:production-notes">The novella "Mathilda" was not published during Shelley's lifetime, surviving only in some manuscripts. The first publication retained mistakes in spelling and punctuation made by the author, adding either [sic] or the likely correction in brackets. These bracketed passages have been removed and the corrections applied.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Mary_Shelley#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-shelley_short-fiction</meta>
 		<dc:creator id="author">Mary Shelley</dc:creator>
 		<meta property="file-as" refines="#author">Shelley, Mary</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#author">Mary Wollstonecraft Shelley</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Mary_Shelley</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061063</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="contributor">Elizabeth Nitchie</dc:contributor>
+		<meta property="file-as" refines="#contributor">Nitchie, Elizabeth</meta>
+		<meta property="role" refines="#contributor" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Thomas Wilmer Dewing</dc:contributor>
+		<meta property="file-as" refines="#artist">Dewing, Thomas Wilmer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Thomas_Dewing</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/nr92038681</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">MFR</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">MFR</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Barry Abrahamsen</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Abrahamsen, Barry</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<dc:contributor id="transcriber-3">David Starner</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Starner, David</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-4">Cori Samuel</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Samuel, Cori</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
+		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdp.net/</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Hendrik Kaiber</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Kaiber, Hendrik</meta>
+		<meta property="se:name.person.full-name" refines="#producer-1">Hendrik de Wetterle Bonow Kaiber</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>

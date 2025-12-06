@@ -58,9 +58,10 @@
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
 		<meta property="se:is-a-collection">true</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of short fiction by Mary Shelley, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/mary-shelley"&gt;Mary Shelley&lt;/a&gt; is best known for her novel &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/mary-shelley/frankenstein"&gt;Frankenstein&lt;/a&gt;&lt;/i&gt;, but she also wrote several other works of fiction and nonfiction. This edition contains most of Shelley’s works of short fiction, published mostly in periodical and annuals during her lifetime.&lt;/p&gt;
+			&lt;p&gt;Included in this edition is “Mathilda,” a likely autobiographical novella written by Shelley after the death of two of her children, and considered too controversial for publication during her lifetime, only being published over a century after her death.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Tales and Stories -->

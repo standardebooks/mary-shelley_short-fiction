@@ -85,6 +85,6 @@ footer{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:salutation"] + p {
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }

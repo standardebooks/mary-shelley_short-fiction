@@ -72,7 +72,7 @@
 		<!-- Mathilda -->
 		<dc:source>https://www.gutenberg.org/ebooks/15238</dc:source>
 		<dc:source>https://commons.wikimedia.org/wiki/File:Mathilda.pdf</dc:source>
-		<meta property="se:word-count">172050</meta>
+		<meta property="se:word-count">171411</meta>
 		<meta property="se:reading-ease.flesch">63.93</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Mary_Shelley#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/mary-shelley_short-fiction</meta>

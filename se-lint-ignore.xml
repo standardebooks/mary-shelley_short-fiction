@@ -2,6 +2,17 @@
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
 		<ignore code="s-064">
+			<line>61</line>
+			<line>67</line>
+			<line>152</line>
+			<line>158</line>
+			<line>213</line>
+			<line>228</line>
+			<line>249</line>
+			<line>252</line>
+			<line>267</line>
+			<line>323</line>
+			<line>350</line>
 			<reason>The supposed cite element is actually an abbreviation.</reason>
 		</ignore>
 	</file>
